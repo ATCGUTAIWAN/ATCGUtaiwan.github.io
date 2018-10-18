@@ -1,17 +1,9 @@
-<script src="jq.js"></script>
-<script src="maphilight.min.js"></script>
-<script>$('#_').maphilight()</script>
-<div>
-    <img id="_" src="FF.png" usemap="#_" />
-    <map id="_" name="_">
-        <area alt="" title="" href="#Earth"
-        coords="228,151,53" shape="circle" 
-        data-maphilight='{"strokeColor":"0000ff","strokeWidth":15,"fillColor":"00ff00","fillOpacity":0.6}'>
-        <area alt="" title="" href="#a"
-        coords="68,54,44" shape="circle" 
-        data-maphilight='{"strokeColor":"0000ff","strokeWidth":5,"fillColor":"00ff00","fillOpacity":0.6}'>
-        <area alt="" title="" href="#b"
-        coords="68,100,44" shape="circle" 
-        data-maphilight="{'strokeColor':'0000ff','strokeWidth':5,'fillColor':'00ff00','fillOpacity':0.6}">
-    </map>
-</div>
+<meta charset="utf-8">
+<title>STL File Viewer</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r68/three.min.js"></script>
+<script src="https://rawgit.com/mrdoob/three.js/master/examples/js/controls/TrackballControls.js"></script>
+<script src="loader.js"></script>
+<script src="stl.js"></script>
+
+<div>select stl file: <input type="file" id="file"> or drop stl file</div>
+<div id="view"></div>
