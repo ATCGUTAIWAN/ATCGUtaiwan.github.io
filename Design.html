@@ -33,8 +33,8 @@
 	<div class="w3-col l9 m7 s12 w3-right w3-container">
 		<div class="pt" id="Idea"></div>
 		<h2>Idea</h2><hr>
-		<img class="mySlides w3-mobile" src="bridge.png" style="height:40%">
-		<img class="mySlides w3-mobile" src="123.jpg"    style="height:40%;width:auto">
+		<img class="mySlides" src="bridge.png">
+		<img class="mySlides" src=   "123.jpg" style="padding: 60 0">
 		<p>Our project <b>" bri<font color="red">D</font>ge a<font color="red">N</font> er<font color="red">A</font> "</b> was inspired by Genesis, a fresco painting by Michelangelo. One of most famous painting among Genesis, The Creation of Adam give us different idea. Since Adam's finger and God's finger are not actually touching, we want to lay out a bridge-like construction to fill up the gap between God's and Adam's finger. In addition, we hope that the idea of <b>" bri<font color="red">D</font>ge a<font color="red">N</font> er<font color="red">A</font> "</b> will also build a bridge between our era and the next era, opening a totally brand new field in biomedicine.</p>
              <script>
 myIndex = 0; c();
@@ -48,23 +48,23 @@ function     c(){
 </script>
 		<div class="pt" id="Concept"></div>
 		<h2>Concept</h2><hr>
-		<img src="456.PNG" class="w3-mobile" style="width:47%">
+		<img src="456.PNG" style="max-width:500">
 		<p>In the future, the most threatening enemy of human medical science may not be cancer. It might be a mutated gene called multidrug resistance gene. Today, the detecting biochip designed by our team is a product withstanding multi-drug resistance gene. With the rapid changing environment and the abuse of antibiotics, the speed of bacterial gene mutation surpasses human’s imagination. For example, the gene of MSSA is induced to become mecA due to antibiotic abuse, causing the new strain type MRSA come out. We use this example as our model, combine characteristics of DNA conductive electricity and specificity hybridization to achieve a fast and cost-saving way of sample screening.</p>
-		<img style="width:70%;padding-top:100;max-width:800" src="int.gif">
+		<img style="max-width:600" src="int.gif">
 		
 		<div class="pt" id="Design"></div>
 		<h2>Design</h2><hr>
 		<p>We want to lay out a bridge-like construction to fill up the gap between God's and Adam's finger by using DNA sequences, and the ones we use here will be a drug-resistant gene. With the electric conductance of DNA, the electric signal transmitted after the DNA bridge constructed successfully.</p>
-		<p>The structure of the DNA bridge is made up of five materials: Route (Electron Hole), Approach Bridge (Capture Probe),Host Bridge (Target DNA), Street Light (Detector Probe),and Bridge Pier (Finger-Cross-Finger).</p>
-		<img src="bridg.PNG" class="w3-mobile" style="width:70%">
+		<p>The structure of the DNA bridge is made up of five materials: Route (Electron Hole), Approach Bridge (Capture Probe), Host Bridge (Target DNA), Street Light (Detector Probe) and Bridge Pier (Finger-Cross-Finger).</p>
+		<img src="bridg.PNG" style="max-width:700">
 		<ul>
 			<li><h3>Route (Electron Hole)</h3></li>
 			<p>In DNA, the one being responsible for conduction is called an electron hole. Of solid state physics, it refers to the lack of an electron at a covalent bond, then causes the phenomenon of leaving a vacancy on the bond.</p>
 			<p>Regarding the issue of DNA electrical properties, it was proposed as early as the 1960s. Since nucleotides have a planar structure similar to a benzene ring, when these nucleotides form a proper stacked pattern (p-stack), electrons may pass through the vertical plane of the Pz electronic orbital domain, moving along the electron holes on long chain, therefore the conductive of DNA built up.</p>
 			<li><h3>Approach Bridge (Capture Probe)</h3></li>
-			<img src="gene.PNG" style="max-width:600">
+			<img src="gene.PNG" style="max-width:700">
 			<p>We design a sequence of 999 base pair long from the resistance gene of mecA as the distance between the two Bridge Piers. Used to connect and support the Host bridge above, both Approach Bridges (Capture Probe) are 33-mer, which are from the start point and the end point.</p>
-			<img src="probe005.PNG" style="max-width:600">
+			<img src="probe005.PNG" style="max-width:700">
 			<p>We first use NUPACK to simulate the secondary structure of capture probe at different temperature to define a proper temperature for probes. At 37 °C, the capture probes have dimers because the temperature is too low that they don’t have enough specificity (left figure). The capture probes will not form dimers if the temperature reach the Tm value. We can see the result reveals that two capture probes are more specific at 60℃ and 50℃ separately (right figure).</p>
 			<p>Capture probe 1: AAAATCGATGGTAAAGGTTGGCAAAAAGATAAA  </p> 
 			<img src="probe1.PNG" class="w3-mobile" style="max-width:800"> <br><br>
@@ -113,14 +113,13 @@ function     c(){
 		<ul>
 			<li><h3>Street Light (Detector Probe)</h3></li>
 			<p>Moreover, we label biotin at the 3’-end as the necessary factor for “shining”.</p>
-			<center>
-				<p>Detector probe : 5'  ACGATAATAGCAATACAATC  3'-biotin</p>
-				<img src="detectorprobe.PNG" style="max-width:400"></center>
+			<img src="detectorprobe.PNG" style="max-width:500">
+			<center>Detector probe : 5'  ACGATAATAGCAATACAATC  3'-biotin</center>
 			<p>After the host bridge built onto the approach bridge by hybridization, we assemble street light (detector probe) onto host bridge with hybridization. In order to make street light shine, we first add the anti-biotin antibody which labelled with horseradish peroxidase (HRP), and then add 3,3',5,5'-tetramethylbenzidine (TMB) substrate. Using the reaction of converting the substrate into a blue product which is visible, our street light will be shine once the host bridge have built onto the approach bridge successfully.</p>
-			<img src="visible2.PNG" style="max-width:600">
+			<img src="visible2.PNG" style="max-width:800">
 			<li><h3>Bridge Pier (Finger-Cross-Finger)</h3></li>
 			<p>To have a better specificity of short DNA segments compared to conventional biosensors, a novel sensor structure is designed. Two electrodes of different materials, gold (Au) and graphene (G), will be fabricated separately for two different capture probes (capture probe-A and capture probe-B) and their surface immobilization. Our idea about designing electrodes came from God’s and Adam’s finger themselves ,which are from Genesis: Au presents as God’s finger while G as Adam’s finger, and target DNA will present as the connection between two fingers. Therefore, the high probability of sequence detection could be achieved by double selection from the match with two capture probes. It could be a great breakthrough of DNA biochip.</p>
-			<img src="123single.png" style="max-width:600">
+			<img src="123single.png" style="max-width:800">
 			
 			<p>The design concept is bridging two probe DNAs by one target DNA selection. Two different probe DNA sequences could be selectively immobilized by two different surface functional groups on two different electrodes, respectively. In our design, SH group could be attached on Au directly and NH2 group could be easily treated on graphene by an aminopropyltriethoxysilane (APTES) and glutaraldehyde (GA) immersion protocol. With the well establishment of bridge, the electrical path could be conducted and following a low resistance.</p>
 			<p>This behavior could be easily measured and the signals could be transferred to a user-friendly interface, which is the strength of biosensors. The designed chip could be used to detect shorter DNA segments, which is an advantage to conventional biosensors. In the meantime, much wide range of length of target DNA could be sensed by the modification of the distance or spacing between two electrodes. For mecA gene of MRSA, a spacing of two adjacent electrodes and a vertical distance between two electrodes is defined as 2000 and 800 nm, respectively.</p>
