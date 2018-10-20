@@ -62,18 +62,18 @@ function     c(){
 			<p>In DNA, the one being responsible for conduction is called an electron hole. Of solid state physics, it refers to the lack of an electron at a covalent bond, then causes the phenomenon of leaving a vacancy on the bond.</p>
 			<p>Regarding the issue of DNA electrical properties, it was proposed as early as the 1960s. Since nucleotides have a planar structure similar to a benzene ring, when these nucleotides form a proper stacked pattern (p-stack), electrons may pass through the vertical plane of the Pz electronic orbital domain, moving along the electron holes on long chain, therefore the conductive of DNA built up.</p>
 			<li><h3>Approach Bridge (Capture Probe)</h3></li>
-			<img src="gene.PNG" class="w3-mobile" style="width:70%">
+			<img src="gene.PNG" style="max-width:600">
 			<p>We design a sequence of 999 base pair long from the resistance gene of mecA as the distance between the two Bridge Piers. Used to connect and support the Host bridge above, both Approach Bridges (Capture Probe) are 33-mer, which are from the start point and the end point.</p>
-			<img src="probe005.PNG"    class="w3-mobile" style="width:70%">
+			<img src="probe005.PNG" style="max-width:600">
 			<p>We first use NUPACK to simulate the secondary structure of capture probe at different temperature to define a proper temperature for probes. At 37 °C, the capture probes have dimers because the temperature is too low that they don’t have enough specificity (left figure). The capture probes will not form dimers if the temperature reach the Tm value. We can see the result reveals that two capture probes are more specific at 60℃ and 50℃ separately (right figure).</p>
 			<p>Capture probe 1: AAAATCGATGGTAAAGGTTGGCAAAAAGATAAA  </p> 
-			<img src="probe1.PNG" class="w3-mobile" style="width:55%"> <br><br>
+			<img src="probe1.PNG" class="w3-mobile" style="max-width:800"> <br><br>
 			<p>Capture probe 2: AACTACGGTAACATTGATCGCAACGTTCAATTT  </p>
-			<img src="probe2.PNG" class="w3-mobile" style="width:55%"><br>
+			<img src="probe2.PNG" class="w3-mobile" style="max-width:800"><br>
 			<p>According to the conductive properties of DNA, the conductivity of dsDNA is much better than that of ssDNA. Due to the the limitations of semiconductor technique, it's difficult to control the distance between two electrodes. Therefore, if our target DNA is way shorter than the distance between our electrodes, longer capture probes will be required. However, if ssDNA is used, it's easier to cause non-speciefic bindings or secondary structures such as hairpins. Compared to ssDNA capture probe, dsDNA is not only stable and easy to synthesize, but more importantly, greatly reduces non-specific bindings, which in turn improves detection. Therefore,  capture probe with dsDNA is ultimatly selected.[ref.1]</p>
 			<li><h3>Host Bridge (Target DNA)</h3></li>
 			<p>To make sure the structure of our bridge is stable, we design the target DNA as the host bridge. This is the most important element of whole bridge. If the host bridge didn’t exist, there is no pathway for the electrons to transmit to the other side. To complete our blueprint about DNA bridge, we try three conditions to find out the best one for host bridge, also means target DNA. All conditions are designed based on the capture probe we set up before. The first condition is that the length of target DNA sequence is equal to the distance between two bridge piers (condition A), second one is shorter (condition B) and last one is longer (condition C). We prepared negative controls that have same conditions as well but without mecA sequence so they will not work absolutely.</p>
-			<img src="think.PNG" class="w3-mobile" style="width:70%">
+			<img src="think.PNG" class="w3-mobile" style="max-width:600">
 			<p>We all know that condition A will work because it will match with the capture probe successfully and build up the access between two electrodes. As for condition B, because the length of sequences is too short so that it will only connect to one of the capture probe and not build up the access. And last one, condition C, the long sequences will definitely cross over two bridge piers so it may be work as well, but we don’t know what the real reason making the bridge work. It may be the real match of target DNA and capture probe, or it's just conducting since target DNA is long enough to directly touch both electrodes. So, we use the negative control to exclude first reason. These conditions can sufficiently ensure that the specific of capture probe.</p>
 			<p>The following are the primers we designed for different length of Target DNA.</p>
 			<style>table, th, td {border: 3px outset pink} td {text-align: center}</style>
@@ -114,20 +114,21 @@ function     c(){
 			<li><h3>Street Light (Detector Probe)</h3></li>
 			<p>Moreover, we label biotin at the 3’-end as the necessary factor for “shining”.</p>
 			<center>
-				<p>Detector probe : 5'  ACGATAATAGCAATACAATC  3'-biotin</p><img src="detectorprobe.PNG" class="w3-mobile" style="width:35%"></center>
+				<p>Detector probe : 5'  ACGATAATAGCAATACAATC  3'-biotin</p>
+				<img src="detectorprobe.PNG" style="max-width:400"></center>
 			<p>After the host bridge built onto the approach bridge by hybridization, we assemble street light (detector probe) onto host bridge with hybridization. In order to make street light shine, we first add the anti-biotin antibody which labelled with horseradish peroxidase (HRP), and then add 3,3',5,5'-tetramethylbenzidine (TMB) substrate. Using the reaction of converting the substrate into a blue product which is visible, our street light will be shine once the host bridge have built onto the approach bridge successfully.</p>
-			<img src="visible2.PNG"    class="w3-mobile" style="width:70%">
+			<img src="visible2.PNG" style="max-width:600">
 			<li><h3>Bridge Pier (Finger-Cross-Finger)</h3></li>
 			<p>To have a better specificity of short DNA segments compared to conventional biosensors, a novel sensor structure is designed. Two electrodes of different materials, gold (Au) and graphene (G), will be fabricated separately for two different capture probes (capture probe-A and capture probe-B) and their surface immobilization. Our idea about designing electrodes came from God’s and Adam’s finger themselves ,which are from Genesis: Au presents as God’s finger while G as Adam’s finger, and target DNA will present as the connection between two fingers. Therefore, the high probability of sequence detection could be achieved by double selection from the match with two capture probes. It could be a great breakthrough of DNA biochip.</p>
-			<img src="123single.png" class="w3-mobile" style="width:70%">
+			<img src="123single.png" style="max-width:600">
 			
 			<p>The design concept is bridging two probe DNAs by one target DNA selection. Two different probe DNA sequences could be selectively immobilized by two different surface functional groups on two different electrodes, respectively. In our design, SH group could be attached on Au directly and NH2 group could be easily treated on graphene by an aminopropyltriethoxysilane (APTES) and glutaraldehyde (GA) immersion protocol. With the well establishment of bridge, the electrical path could be conducted and following a low resistance.</p>
 			<p>This behavior could be easily measured and the signals could be transferred to a user-friendly interface, which is the strength of biosensors. The designed chip could be used to detect shorter DNA segments, which is an advantage to conventional biosensors. In the meantime, much wide range of length of target DNA could be sensed by the modification of the distance or spacing between two electrodes. For mecA gene of MRSA, a spacing of two adjacent electrodes and a vertical distance between two electrodes is defined as 2000 and 800 nm, respectively.</p>
 			<img src="plat.PNG" class="w3-mobile" style="width:70%">
 			
                 	<p>To have two different surface functional groups on the surface of electrodes, different material is necessary for functionalizing. Two of most popular functional groups, such as -SH and -NH2, are chosen first. Then Au electrode is surely selected as the first electrode.[ref.2] A monolayer graphene grown by low-pressure chemical vapor deposition (LPCVD), which is a well-investigated 2D material, is selected as the second electrode [ref]. </p>
-			<img src="GA.jpg"    class="w3-mobile" style="width:70%">
-			<img src="AAA.jpg"    class="w3-mobile" style="width:70%">
+			<img src= "GA.jpg"  style="max-width:600">
+			<img src="AAA.jpg"  style="max-width:600">
 			
 			<p>To design two different electrodes, a layout was drawn in the AutoCAD software. For a high bridging possibility, an interdigital type of electrodes arrangement is drawn with a short spacing (2000 nm) and a long distance (4000 μm). </p>
 			<style>#g img{margin: 0; display: inline}</style>
@@ -145,7 +146,7 @@ function     c(){
 <iframe style="width:100%;height:70%;border:0" src="https://render.githubusercontent.com/view/solid?commit=a7e992b762e29e6c350044269be3b08f9983ac49&amp;enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f415443475554414957414e2f415443475574616977616e2e6769746875622e696f2f613765393932623736326532396536633335303034343236396265336230386639393833616334392f53452e73746c"></iframe>
 
 			<p>In detecting the connection between DNA and the electrode, cyclic voltammetry is used. Cyclic voltammetry gradually change the voltage under the same current, and the redox reaction of the sample is observed, and the result of the connection is judged by the type and change of the figure value.</p>
-			<img src="dis.PNG" class="w3-mobile" style="width:70%">
+			<img src="dis.PNG" style="max-width:600">
 			
 		</ul>		
 		<h2>Reference</h2><hr>
